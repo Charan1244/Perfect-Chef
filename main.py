@@ -20,7 +20,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyBbcjPJuBxZCjuocJvd4-ZnQC-UlVTwT88")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "key")
 genai.configure(api_key=GEMINI_API_KEY)
 
 # ── Database Setup ─────────────────────────────────────────────────────────────
